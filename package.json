@@ -1,0 +1,35 @@
+{
+  "name": "moment-ng-packagr",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node ./node_modules/watch-run/bin/watch -p src/**/* \"npm run build\"",
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/common": "^5.0.1",
+    "@angular/compiler": "^5.0.1",
+    "@angular/core": "^5.0.1",
+    "core-js": "^2.5.1",
+    "moment": "^2.19.2",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "@angular/common": "^5.0.1",
+    "@angular/compiler": "^5.0.1",
+    "@angular/core": "^5.0.1",
+    "@angular/language-service": "^5.0.1",
+    "@angular/tsc-wrapped": "^4.4.6",
+    "core-js": "^2.5.1",
+    "moment": "^2.19.1",
+    "ng-packagr": "^1.5.2",
+    "npm-run-all": "^4.1.2",
+    "rxjs": "^5.5.2",
+    "typescript": "^2.6.1",
+    "zone.js": "^0.8.18"
+  }
+}
